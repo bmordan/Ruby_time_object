@@ -1,4 +1,4 @@
-class Poo
+class Birthday
   def time
     Time.new
   end

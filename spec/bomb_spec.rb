@@ -5,9 +5,9 @@ require 'timecop'
 describe 'Working with Time' do
 
   it 'when time is at a premium' do
-    poo = Poo.new
+    bday = Birthday.new
     Timecop.freeze(Time.new)
-    expect(poo.time).to eq(Time.new)
+    expect(bday.time).to eq(Time.new)
   end
 
   it "should know a persons birthday" do 
